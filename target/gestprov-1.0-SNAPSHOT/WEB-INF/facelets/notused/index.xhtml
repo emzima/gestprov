@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?xml-stylesheet type="text/css" href="/css/header_footer.css"?>
+
+<!DOCTYPE html [
+    <!ENTITY nbsp "&#xA0;"> 
+    ]>
+
+<html xml:lang="es" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    
+<ui:composition template="/WEB-INF/facelets/templates/default.xhtml">
+        <h:head>
+        <link href="/css/main.css" rel="stylesheet"/>
+    </h:head>
+    <ui:define name="title">
+        <h:outputText value="Principal"/>
+    </ui:define>
+
+    <ui:define name="contain">
+        <body>
+            <h1>Presentación y contenido informativo</h1>
+        </body>
+    </ui:define>
+</ui:composition>    
+</html>

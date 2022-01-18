@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-shared-configuration>
+    <!--
+This file contains additional configuration written by modules in the NetBeans IDE.
+The configuration is intended to be shared among all the users of project and
+therefore it is assumed to be part of version control checkout.
+Without this configuration present, some functionality in the IDE may be limited or fail altogether.
+-->
+    <properties xmlns="http://www.netbeans.org/ns/maven-properties-data/1">
+        <!--
+Properties that influence various parts of the IDE, especially code formatting and the like. 
+You can copy and paste the single properties, into the pom.xml file and the IDE will pick them up.
+That way multiple projects can share the same settings (useful for formatting rules for example).
+Any value defined here will override the pom.xml file value but is only applicable to the current project.
+-->
+        <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>1.7-web</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>
+        <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>Tomcat</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>
+        <org-netbeans-modules-projectapi.jsf_2e_language>JSP</org-netbeans-modules-projectapi.jsf_2e_language>
+        <netbeans.hint.jdkPlatform>Zulu_8.0.312_7</netbeans.hint.jdkPlatform>
+        <org-netbeans-modules-html-editor-lib.default-html-public-id>HTML5</org-netbeans-modules-html-editor-lib.default-html-public-id>
+        <org-netbeans-modules-css-prep.less_2e_mappings>/less:/css</org-netbeans-modules-css-prep.less_2e_mappings>
+        <org-netbeans-modules-css-prep.less_2e_enabled>false</org-netbeans-modules-css-prep.less_2e_enabled>
+        <org-netbeans-modules-css-prep.sass_2e_enabled>false</org-netbeans-modules-css-prep.sass_2e_enabled>
+        <org-netbeans-modules-css-prep.sass_2e_compiler_2e_options/>
+        <org-netbeans-modules-css-prep.less_2e_compiler_2e_options/>
+        <org-netbeans-modules-css-prep.sass_2e_mappings>/scss:/css</org-netbeans-modules-css-prep.sass_2e_mappings>
+        <org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder>intlTelInput.min.js</org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder>
+    </properties>
+    <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1">
+        <library name="intl-tel-input" version="17.0.15">
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/css/intlTelInput.css" path="css/intlTelInput.css"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/img/flags.png" path="img/flags.png"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/img/flags@2x.png" path="img/flags@2x.png"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/js/intlTelInput-jquery.js" path="js/intlTelInput-jquery.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/js/intlTelInput-jquery.min.js" path="js/intlTelInput-jquery.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/js/intlTelInput.js" path="js/intlTelInput.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/js/intlTelInput.min.js" path="js/intlTelInput.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/js/utils.js" path="js/utils.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/intl-tel-input/js/utils.min.js" path="js/utils.min.js"/>
+        </library>
+        <library name="jquery.lazyloadxt" version="1.1.0">
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jqlight.lazyloadxt.js" path="jqlight.lazyloadxt.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jqlight.lazyloadxt.min.js" path="jqlight.lazyloadxt.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.autoload.js" path="jquery.lazyloadxt.autoload.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.autoload.min.js" path="jquery.lazyloadxt.autoload.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.bg.js" path="jquery.lazyloadxt.bg.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.bg.min.js" path="jquery.lazyloadxt.bg.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.bootstrap.js" path="jquery.lazyloadxt.bootstrap.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.bootstrap.min.js" path="jquery.lazyloadxt.bootstrap.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.extra.js" path="jquery.lazyloadxt.extra.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.extra.min.js" path="jquery.lazyloadxt.extra.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.fadein.css" path="jquery.lazyloadxt.fadein.css"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.fadein.min.css" path="jquery.lazyloadxt.fadein.min.css"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.jquerymobile.js" path="jquery.lazyloadxt.jquerymobile.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.jquerymobile.min.js" path="jquery.lazyloadxt.jquerymobile.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.js" path="jquery.lazyloadxt.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.min.js" path="jquery.lazyloadxt.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.picture.js" path="jquery.lazyloadxt.picture.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.picture.min.js" path="jquery.lazyloadxt.picture.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.print.js" path="jquery.lazyloadxt.print.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.print.min.js" path="jquery.lazyloadxt.print.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.script.js" path="jquery.lazyloadxt.script.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.script.min.js" path="jquery.lazyloadxt.script.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.spinner.css" path="jquery.lazyloadxt.spinner.css"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.spinner.min.css" path="jquery.lazyloadxt.spinner.min.css"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.srcset.js" path="jquery.lazyloadxt.srcset.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.srcset.min.js" path="jquery.lazyloadxt.srcset.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.video.js" path="jquery.lazyloadxt.video.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.video.min.js" path="jquery.lazyloadxt.video.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.widget.js" path="jquery.lazyloadxt.widget.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/jquery.lazyloadxt.widget.min.js" path="jquery.lazyloadxt.widget.min.js"/>
+            <file localPath="src/main/webapp/intlTelInput.min.js/jquery.lazyloadxt/loading.gif" path="loading.gif"/>
+        </library>
+    </libraries>
+</project-shared-configuration>

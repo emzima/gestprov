@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/xhtml.xhtml to edit this template
+-->
+
+<!DOCTYPE html [
+    <!ENTITY nbsp "&#xA0;"> 
+    ]>
+
+<html xml:lang="es" xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    
+<ui:composition template="/WEB-INF/facelets/templates/default.xhtml">
+    <ui:define name="title">
+        <h:outputText value="Alta Cliente"/>
+    </ui:define>
+
+    <ui:define name="contain">
+        <form method="POST" action="views/registrationCostumer.jsp" class="registro" id="regsitro">
+             <!--inicio de contenedor formulario--> 
+            <div class="container" id="form" name="form">
+                <article class="tituloform">
+                    <h3>ALTA CLIENTE</h3>
+                    <h4>Formulario del cliente</h4>
+                </article>
+                <section class="row">
+                    <div class="col">
+                        <p>Cuit del cliente</p>
+                        <input type="number" name="cuit" class="form-control" placeholder="Cuit del cliente" aria-label="Cuit del cliente" id="cuit" required="required"/>
+                        <span class="error" aria-live="polite" style="color: red"></span>
+                    </div>
+                    <div class="col">
+                        <p>Correo de la persona contacto en representación del cliente</p>
+                        <input type="email" name="email" class="form-control" placeholder="Correo electónico" aria-label="Correo electrónico" id="correo" required="required" minlength="8"/>
+                        <span class="error" aria-live="polite" style= "color: red"></span>
+                    </div>
+                </section>
+                <div class="col" id="container2a">
+                    <p>Apellidos y Nombres (preséntelos en la misma forma que el DNI, puede ser usado como mecanismo de verificación.)</p>
+                    <input type="text" name="namesAll" class="form-control" placeholder="Apellidos y Nombres" aria-label="Apellidos y Nombres" id="namesAll" required="required"/>
+                    <span class="error" aria-live="polite" style= "color: red"></span>
+                </div>
+                <section class="row">
+                    <div class="col">
+                        <p>Teléfono móvil</p>
+                        <input type="number" name="celular" class="form-control" placeholder="Teléfono móvil" aria-label="celular" id="celular" required="required"/>
+                        <span class="error" aria-live="polite" style="color: red"></span>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col">
+                        <p>Contraseña</p>
+                        <input type="text" name="password" class="form-control" placeholder="Contraseña" aria-label="Contraseña" id="password" required="required" minlength="8"/>
+                        <span class="error" aria-live="polite" style="color: red"></span>
+                    </div>
+                    <span class="error" aria-live="polite" style="color: red"></span>
+                    <div class="col">
+                        <p>Repita, por favor, su contraseña</p>
+                        <input type="text" class="form-control" placeholder="Repita la Contraseña" aria-label="Repita la Contraseña" id="passwordRepetida"  minlength="8"/>
+                        <span class="error" aria-live="polite" style= "color: red"></span>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col">
+                        <div class="d-grid gap-2">
+                            <button type="reset" class="btn btn-danger" id="borrado">Borrar</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary" id="enviar">Enviar información</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- fin de contenedor formulario -->
+        </form>
+    </ui:define>
+</ui:composition>
+</html>

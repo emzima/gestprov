@@ -1,0 +1,13 @@
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/SendMail.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/User.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/Customer.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/JsonPosts.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/AdditionalInvoice.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/config/DBConn.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/database/AccountDAO.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/controller/CustomerController.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/controller/ViewsController.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/database/CustomerDAO.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/Information.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/controller/LoginController.java
+/home/gerencia/NetBeansProjects/gestprov/src/main/java/model/Invoices.java
